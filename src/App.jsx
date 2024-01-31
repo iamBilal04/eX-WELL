@@ -1,20 +1,17 @@
-import { BrowserRouter } from 'react-router-dom'
-import { useState } from 'react'
-import { About, Hero, Navbar, Contact } from './components'
-import Working from './components/Working'
-import Ai from './components/Ai'
+import { BrowserRouter } from "react-router-dom";
+import { About, Hero, Navbar, Contact } from "./components";
+import Working from "./components/Working";
+import Ai from "./components/Ai";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <div>
       <Navbar />
-      <Hero />
-      <About />
-      <Working />
+      <Outlet />
       <Contact />
-      <Ai />
-    </BrowserRouter>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
