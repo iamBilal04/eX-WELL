@@ -44,15 +44,15 @@ const Contact = () => {
                             Develoment Team
                         </div>
                         <div className="absolute sm:visible invisible w-[88px] h-[184px] top-[72px] left-0 [font-family:'Outfit-Regular',Helvetica] font-normal text-white text-[18px] tracking-[0] leading-[normal]">
-                            Rehan
+                            Azhar
                             <br />
                             <br />
                             Bilal <br />
                             <br />
+                            Rehan
+                            <br />
+                            <br />
                             Affaan
-                            <br />
-                            <br />
-                            Azhar
                         </div>
                     </div>
                     <div className="absolute sm:w-[427px] h-[223px] w-[300px] top-[214px] left-[188px] ">
