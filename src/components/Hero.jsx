@@ -21,7 +21,7 @@ const Hero = () => {
           <button className="absolute sm:w-[259px] sm:h-[91px] sm:top-[450px] top-[280px] sm:left-[230px] left-[180px] all-[unset] box-border cursor-pointer">
             <div className="relative w-[257px] h-[91px] bg-[#57e086] rounded-[38px_38px_38px_83px]">
               <div className="absolute w-[229px] h-[37px] top-[27px] left-[14px] [font-family:'Roboto',Helvetica] font-medium text-white text-[32px] text-center tracking-[3.52px] leading-[normal] whitespace-nowrap">
-                <Link to="Ai">Get Started</Link>
+                <Link to="/test">Get Started</Link>
               </div>
             </div>
           </button>

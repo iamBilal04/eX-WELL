@@ -2,6 +2,14 @@ import { affaanV, BilalV, RehanV, mate4, scan, upload, stats } from "../assets"
 
 const navLinks = [
     {
+      id: "/",
+      title: "Home",
+    },
+    {
+      id: "test",
+      title: "Test",
+    },
+    {
       id: "about",
       title: "About",
     },
@@ -25,7 +33,7 @@ const services = [
     icon: RehanV,
   },
   {
-    title: "Love Jihadi",
+    title: "Azhar Khan",
     icon: mate4,
   },
 ];
