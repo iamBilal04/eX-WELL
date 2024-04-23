@@ -21,3 +21,36 @@
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
 }
+
+.card {
+  @apply flex items-center justify-center flex-col text-center h-24 w-64 rounded-lg text-white cursor-pointer transition-transform;
+}
+
+.tip {
+  @apply font-bold text-lg;
+}
+
+.second-text {
+  @apply text-sm;
+}
+
+.red {
+  @apply bg-red-500;
+}
+
+.blue {
+  @apply bg-blue-500;
+}
+
+.green {
+  @apply bg-green-500;
+}
+
+.card:hover {
+  @apply transform scale-110 text-black;
+}
+
+.cards:hover > .card:not(:hover) {
+  @apply filter transform scale-90 ;
+}
+

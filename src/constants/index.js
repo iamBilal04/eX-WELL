@@ -6,8 +6,8 @@ const navLinks = [
       title: "Home",
     },
     {
-      id: "test",
-      title: "Test",
+      id: "predictionProto",
+      title: "Predicton ProtoType",
     },
     {
       id: "about",
